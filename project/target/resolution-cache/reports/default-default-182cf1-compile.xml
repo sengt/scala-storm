@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="default-182cf1"
+		revision="0.1-SNAPSHOT"
+		extra-sbtVersion="0.12"
+		extra-scalaVersion="2.9.2"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom"
+		date="20140109085757"/>
+	<dependencies>
+		<module organisation="com.timushev.sbt" name="sbt-updates">
+			<revision name="0.1.0" status="release" pubdate="20121118222538" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="1">
+				<metadata-artifact status="no" details="" size="2123" time="0" location="/Users/st891x/.ivy2/cache/scala_2.9.2/sbt_0.12/com.timushev.sbt/sbt-updates/ivy-0.1.0.xml" searched="false" origin-is-local="false" origin-location="http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.timushev.sbt/sbt-updates/scala_2.9.2/sbt_0.12/0.1.0/ivys/ivy.xml"/>
+				<caller organisation="default" name="default-182cf1" conf="compile" rev="0.1.0" rev-constraint-default="0.1.0" rev-constraint-dynamic="0.1.0" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2"/>
+				<artifacts>
+					<artifact name="sbt-updates" type="jar" ext="jar" status="no" details="" size="129733" time="0" location="/Users/st891x/.ivy2/cache/scala_2.9.2/sbt_0.12/com.timushev.sbt/sbt-updates/jars/sbt-updates-0.1.0.jar">
+						<origin-location is-local="false" location="http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.timushev.sbt/sbt-updates/scala_2.9.2/sbt_0.12/0.1.0/jars/sbt-updates.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-nop">
+			<revision name="1.6.6" status="release" pubdate="20120611074207" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="6">
+				<metadata-artifact status="no" details="" size="4438" time="0" location="/Users/st891x/.ivy2/cache/org.slf4j/slf4j-nop/ivy-1.6.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.6.6/slf4j-nop-1.6.6.pom"/>
+				<caller organisation="com.timushev.sbt" name="sbt-updates" conf="compile" rev="1.6.6" rev-constraint-default="1.6.6" rev-constraint-dynamic="1.6.6" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="slf4j-nop" type="jar" ext="jar" status="no" details="" size="4781" time="0" location="/Users/st891x/.ivy2/cache/org.slf4j/slf4j-nop/jars/slf4j-nop-1.6.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.6.6/slf4j-nop-1.6.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.6.6" status="release" pubdate="20120611074148" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="7">
+				<metadata-artifact status="no" details="" size="4409" time="0" location="/Users/st891x/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.6.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.pom"/>
+				<caller organisation="com.ning" name="async-http-client" conf="compile, runtime" rev="1.6.2" rev-constraint-default="1.6.2" rev-constraint-dynamic="1.6.2" callerrev="1.7.5"/>
+				<caller organisation="org.slf4j" name="slf4j-nop" conf="default, compile, runtime, master" rev="1.6.6" rev-constraint-default="1.6.6" rev-constraint-dynamic="1.6.6" callerrev="1.6.6"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="26176" time="0" location="/Users/st891x/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.6.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.6.2" status="release" pubdate="20110818151308" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="-1">
+				<metadata-artifact status="no" details="" size="4133" time="0" location="/Users/st891x/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.2.xml" searched="false" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/releases/org/slf4j/slf4j-api/1.6.2/slf4j-api-1.6.2.pom"/>
+				<evicted-by rev="1.6.6"/>
+				<caller organisation="com.ning" name="async-http-client" conf="compile, runtime" rev="1.6.2" rev-constraint-default="1.6.2" rev-constraint-dynamic="1.6.2" callerrev="1.7.5"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.databinder.dispatch" name="dispatch-core_2.9.2">
+			<revision name="0.9.2" status="release" pubdate="20120930185154" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://dispatch.databinder.net/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="2">
+				<license name="LGPL v3" url="http://www.gnu.org/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="2869" time="0" location="/Users/st891x/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.9.2/ivy-0.9.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/databinder/dispatch/dispatch-core_2.9.2/0.9.2/dispatch-core_2.9.2-0.9.2.pom"/>
+				<caller organisation="com.timushev.sbt" name="sbt-updates" conf="compile" rev="0.9.2" rev-constraint-default="0.9.2" rev-constraint-dynamic="0.9.2" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="dispatch-core_2.9.2" type="jar" ext="jar" status="no" details="" size="218657" time="0" location="/Users/st891x/.ivy2/cache/net.databinder.dispatch/dispatch-core_2.9.2/jars/dispatch-core_2.9.2-0.9.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/databinder/dispatch/dispatch-core_2.9.2/0.9.2/dispatch-core_2.9.2-0.9.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.ning" name="async-http-client">
+			<revision name="1.7.5" status="release" pubdate="20120517095848" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/sonatype/async-http-client" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="4">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="7137" time="0" location="/Users/st891x/.ivy2/cache/com.ning/async-http-client/ivy-1.7.5.xml" searched="false" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/releases/com/ning/async-http-client/1.7.5/async-http-client-1.7.5.pom"/>
+				<caller organisation="net.databinder.dispatch" name="dispatch-core_2.9.2" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="0.9.2"/>
+				<artifacts>
+					<artifact name="async-http-client" type="jar" ext="jar" status="no" details="" size="476213" time="0" location="/Users/st891x/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.7.5.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/releases/com/ning/async-http-client/1.7.5/async-http-client-1.7.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.4.4.Final" status="release" pubdate="20120506074940" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="5">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="5915" time="0" location="/Users/st891x/.ivy2/cache/io.netty/netty/ivy-3.4.4.Final.xml" searched="false" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/releases/io/netty/netty/3.4.4.Final/netty-3.4.4.Final.pom"/>
+				<caller organisation="com.ning" name="async-http-client" conf="compile, runtime" rev="3.4.4.Final" rev-constraint-default="3.4.4.Final" rev-constraint-dynamic="3.4.4.Final" callerrev="1.7.5"/>
+				<artifacts>
+					<artifact name="netty" type="bundle" ext="jar" status="no" details="" size="969176" time="0" location="/Users/st891x/.ivy2/cache/io.netty/netty/bundles/netty-3.4.4.Final.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/releases/io/netty/netty/3.4.4.Final/netty-3.4.4.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.eed3si9n" name="sbt-assembly">
+			<revision name="0.8.4" status="release" pubdate="20120821225420" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
+				<license name="MIT License" url="https://github.com/sbt/sbt-assembly/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="1743" time="0" location="/Users/st891x/.ivy2/cache/scala_2.9.2/sbt_0.12/com.eed3si9n/sbt-assembly/ivy-0.8.4.xml" searched="false" origin-is-local="false" origin-location="http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.9.2/sbt_0.12/0.8.4/ivys/ivy.xml"/>
+				<caller organisation="default" name="default-182cf1" conf="compile" rev="0.8.4" rev-constraint-default="0.8.4" rev-constraint-dynamic="0.8.4" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2"/>
+				<artifacts>
+					<artifact name="sbt-assembly" type="jar" ext="jar" status="no" details="" size="101420" time="0" location="/Users/st891x/.ivy2/cache/scala_2.9.2/sbt_0.12/com.eed3si9n/sbt-assembly/jars/sbt-assembly-0.8.4.jar">
+						<origin-location is-local="false" location="http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.9.2/sbt_0.12/0.8.4/jars/sbt-assembly.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.9.2" status="release" pubdate="20120413052921" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="3">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2391" time="0" location="/Users/st891x/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.pom"/>
+				<caller organisation="net.databinder.dispatch" name="dispatch-core_2.9.2" conf="default, compile, runtime, master" rev="2.9.2" rev-constraint-default="2.9.2" rev-constraint-dynamic="2.9.2" callerrev="0.9.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
